@@ -56,7 +56,7 @@ public class ParkingSpotDAO {
         }
     }
 
-    //olvicario : création méthode pour test d'intégration ParkingDataBaseIT
+    //olvicario : creation methode pour test d'integration ParkingDataBaseIT
     public ParkingSpot getParkingByParkingNumber(int i) {
     	Connection con = null;
         ParkingSpot parkingspot=null;
