@@ -36,7 +36,7 @@ public class ParkingSpotDAO {
         }
         return result;
     }
-
+    @edu.umd.cs.findbugs.annotations.SuppressFBWarnings("OBL_UNSATISFIED_OBLIGATION")
     public boolean updateParking(ParkingSpot parkingSpot){
         //update the availability fo that parking slot
         Connection con = null;

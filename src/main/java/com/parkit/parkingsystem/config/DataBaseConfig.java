@@ -8,11 +8,12 @@ import java.sql.*;
 public class DataBaseConfig {
 
     private static final Logger logger = LogManager.getLogger("DataBaseConfig");
-
+@edu.umd.cs.findbugs.annotations.SuppressFBWarnings("DMI_CONSTANT_DB_PASSWORD")
     public Connection getConnection() throws ClassNotFoundException, SQLException {
         logger.info("Create DB connection");
         Class.forName("com.mysql.cj.jdbc.Driver");
         // olvicario : append ?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC after databasename
+        
         return DriverManager.getConnection(
                 "jdbc:mysql://localhost:3306/prod?zeroDateTimeBehavior=CONVERT_TO_NULL&serverTimezone=UTC","root","rootroot");
     }
