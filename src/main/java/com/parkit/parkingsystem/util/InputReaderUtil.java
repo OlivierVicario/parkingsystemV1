@@ -6,8 +6,8 @@ import java.util.Scanner;
 
 public class InputReaderUtil {
 	
-	@edu.umd.cs.findbugs.annotations.SuppressFBWarnings("DM_DEFAULT_ENCODING")
-    private static Scanner scan = new Scanner(System.in);
+	//@edu.umd.cs.findbugs.annotations.SuppressFBWarnings("DM_DEFAULT_ENCODING")
+    private static Scanner scan = new Scanner(System.in,"utf-8");
 	
     private static final Logger logger = LogManager.getLogger("InputReaderUtil");
 

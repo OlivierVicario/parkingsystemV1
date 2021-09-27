@@ -31,5 +31,6 @@
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/olvic/Documents/V1/V1/parkingsystem-master-main.zip_expanded/parkingsystem-master-main/resources/annotations.jar"/>
 	<classpathentry kind="lib" path="C:/Users/olvic/Documents/V1/V1/parkingsystem-master-main.zip_expanded/parkingsystem-master-main/resources/jsr305.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
